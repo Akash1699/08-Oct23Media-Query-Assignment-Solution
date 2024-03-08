@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution2</title>
+</head>
+<style>
+    .image-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .image-gallery img{
+        width: 30%;
+        margin: 10px;
+    }
+    @media  and (max-width: 800px) {
+        .image-gallery img {
+            width: 45%;
+        }
+        
+    }
+    @media  and (max-width: 500px) {
+        .image-gallery img {
+            width: 100%;
+        }
+        
+    }
+</style>
+<body>
+    <div class="image-gallery">
+        <img src="https://fastly.picsum.photos/id/446/200/300.jpg?hmac=VaF-vrs-svfPoYxxsTKI08lxXNlPBzqyj97M82eX8mc"/>
+        <img src="https://fastly.picsum.photos/id/845/200/300.jpg?hmac=DfR-wrajwQRkxeIHc0FhGL5Pn8rIOnYPzHRdY08PajE"/>
+        <img src="https://fastly.picsum.photos/id/255/200/300.jpg?hmac=8h6Fxv1UswqZlMd2N1RMp5y8kqMk0TpucwH0sj9mlOU"/>
+   </div>
+    
+</body>
+</html>
